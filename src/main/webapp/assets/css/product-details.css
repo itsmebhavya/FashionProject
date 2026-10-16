@@ -1,0 +1,31 @@
+.product-details-page {
+    padding-bottom: 20px;
+}
+
+.product-details-section {
+    padding: 36px 0 24px;
+}
+
+.product-details-card {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+.product-details-image .image-box {
+    min-height: 320px;
+}
+
+@media (max-width: 576px) {
+    .product-details-card {
+        padding: 20px;
+    }
+
+    .product-details-content h1 {
+        font-size: 28px;
+    }
+
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+}

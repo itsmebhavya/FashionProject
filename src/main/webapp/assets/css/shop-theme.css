@@ -1,0 +1,22 @@
+:root {
+  --color-canvas-mist: #f2f4f5;
+  --color-pure-white: #ffffff;
+  --color-ink-black: #000000;
+  --color-faint-border: #ebebeb;
+  --color-muted-gray: #787574;
+  --color-shop-violet: #5433eb;
+  --color-violet-wash: #c0b5f3;
+  --font-gt-standard: 'Inter', system-ui, -apple-system, sans-serif;
+  --radius-cards: 28px;
+  --radius-search: 9999px;
+  --shadow-sm-2: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.1) 0px 2px 4px -2px;
+  --shadow-lg-2: rgba(69, 36, 219, 0.34) 0px 4px 24px 0px;
+}
+
+body {
+  background-color: var(--color-canvas-mist);
+  color: var(--color-ink-black);
+  font-family: var(--font-gt-standard);
+  margin: 0;
+  padding: 0;
+}
